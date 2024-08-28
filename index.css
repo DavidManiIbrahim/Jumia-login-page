@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.logo-star img {
+    width: 50px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.continue-btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.continue-btn:hover {
+    background-color: #e68900;
+}
+
+.terms {
+    font-size: 12px;
+    color: #999;
+}
+
+.terms a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.facebook-btn {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook-btn img {
+    width: 20px;
+    position: relative;
+    right: 100px;
+}
+
+.support-text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
